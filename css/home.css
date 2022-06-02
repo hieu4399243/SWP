@@ -1,0 +1,30 @@
+:root {
+    --primary: #eaa636;
+    --secondary: #545454;
+    --light: #fdf5eb;
+    --dark: #1e1916;
+  }  
+
+.dropitems{
+    display: none;
+    position: absolute;
+    background-color: var(--dark);
+    list-style: none;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-right: 0px;
+    min-width: 150px;
+}
+.dropitems a{
+    color: var(--light);
+}
+.dropitems a:hover{
+    color: var(--primary);
+}
+.dropmenu:hover .dropitems{
+    display: block;
+}
+.nav-link{
+    padding-bottom: 10px !important;
+}
