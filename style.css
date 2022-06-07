@@ -275,6 +275,19 @@
     height: 100%;
     opacity: 1;
   }
+  .row.g-5 {
+    padding-bottom: 60px;
+    
+  }
+  .col-6.align-self-end {
+    margin-top: 50px;
+  }
+  .col-12.text-center {
+    margin-top: 3rem;
+  }
+  .col-lg-4.fadeInUp.wow {
+    margin-left: 100px;
+}
   
   /*** Team ***/
   .team-item .team-text {
@@ -417,14 +430,5 @@
 .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     max-width: 1450px;
 }
-.row.g-5 {
-  padding-bottom: 60px;
-  
-}
-.col-6.align-self-end {
-  margin-top: 50px;
-}
-.col-12.text-center {
-  margin-top: 3rem;
-}
+
 
